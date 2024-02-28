@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ngu vào @ QUân</title>
+    <style type="text/css">
+        @keyframes moveText {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(200px); }
+            100% { transform: translateX(0); }
+        }
+
+        .red-square {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+            animation: moveText 5s linear infinite; /* Adjust the duration (5s) and timing function as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="red-square">
+        <h1>ĐỊT CỤ MÀY</h1>
+    </div>
+</body>
+</html>
